@@ -7,7 +7,7 @@
 - eGovFrame 기반 웹 애플리케이션 실습
 - Android 앱과의 연동 및 소셜 로그인, 푸시 알림 등의 기능 연습
 - 실무 환경과 유사한 개발 환경 구성 및 배포 연습
-- Firebase, Kakao, Google SDK 등을 이용한 인증/연동 예제 포함
+- Firebase Cloud Messaging(FCM), Kakao, Google SDK 등을 이용한 인증/연동 예제 포함
 
 ## 주요 기술 스택
 
