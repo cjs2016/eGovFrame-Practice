@@ -14,3 +14,15 @@ eGovFrame(전자정부프레임워크)을 활용하여 다양한 웹 애플리�
 - HTML
 - Batchfile
 
+## 참고
+
+- eGovFrame 공식 사이트: https://www.egovframe.go.kr/
+- 관련 예제 및 문서는 공식 가이드 참고
+
+## 라이선스
+
+본 프로젝트는 MIT 라이선스를 따릅니다.
+
+
+
+
