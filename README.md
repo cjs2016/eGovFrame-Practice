@@ -1,6 +1,6 @@
 # eGovFrame-Practice
 
-이 저장소는 eGovFrame 기반의 연습 및 실습용 프로젝트입니다.
+이 저장소는 eGovFrame 기반의 실습용 프로젝트입니다.
 
 ## 소개
 
