@@ -1,10 +1,13 @@
 # eGovFrame-Practice
 
-이 저장소는 eGovFrame 기반의 실습용 프로젝트입니다.
+이 저장소는 eGovFrame 기반의 실습용 프로젝트입니다. 
 
 ## 소개
 
-eGovFrame(전자정부프레임워크)을 활용하여 다양한 웹 애플리케이션 및 모바일 개발 연습을 위한 케이스 스터디 및 샘플 코드를 포함하고 있습니다.
+- eGovFrame 기반 웹 애플리케이션 실습
+- Android 앱과의 연동 및 소셜 로그인, 푸시 알림 등의 기능 연습
+- 실무 환경과 유사한 개발 환경 구성 및 배포 연습
+- Firebase, Kakao, Google SDK 등을 이용한 인증/연동 예제 포함
 
 ## 주요 기술 스택
 
@@ -13,6 +16,44 @@ eGovFrame(전자정부프레임워크)을 활용하여 다양한 웹 애플리�
 - JavaScript
 - HTML
 - Batchfile
+
+## 필요한 API KEY
+
+이 프로젝트를 실행하기 위해서는 다음과 같은 외부 서비스 API KEY가 필요합니다.  
+실제 키 값은 **소스 코드에 직접 커밋하지 말고**, 별도의 환경설정 파일이나 시스템 환경 변수로 관리하세요.
+
+### 1. Firebase Admin SDK Key
+
+- Firebase 프로젝트 생성 후 서비스 계정 키(JSON) 발급
+- 주요 사용처
+  - 서버 사이드에서 Firebase Auth 및 Cloud Messaging(Firebase Cloud Messaging) 사용
+  - Custom Token 발급 등 백엔드 연동 [web:9]
+- 권장 설정 방법
+  - `config/firebase/` 폴더 등 키 파일을 두고, 경로만 환경 변수로 관리
+  - 예: `FIREBASE_ADMIN_SDK_PATH=/path/to/serviceAccountKey.json` [web:9]
+
+### 2. Kakao SDK Key
+
+- Kakao Developers에서 애플리케이션 생성 후 다음 키 발급
+  - REST API 키
+  - JavaScript 키 (웹/프론트에서 사용하는 경우)
+  - Android, iOS용 네이티브 앱 키 (모바일 앱에서 사용하는 경우) [web:9]
+- 주요 사용처
+  - 카카오 로그인, 사용자 정보 조회, 기타 카카오 API 연동 [web:7][web:9]
+- 권장 설정 방법
+  - `application-*.properties` 또는 eGovFrame 설정 파일에 `${KAKAO_REST_API_KEY}` 등으로 참조
+  - IDE/서버 환경 변수로 실제 값을 주입 [web:7]
+
+### 3. Google SDK Key
+
+- Google Cloud Console 또는 Firebase Console에서 다음 정보 발급
+  - OAuth 2.0 Client ID / Client Secret
+  - 필요시 API Key (Maps, Places 등 추가 서비스 사용 시) [web:7]
+- 주요 사용처
+  - Google 로그인(OAuth2), Firebase 연동, 기타 Google API 호출 [web:7]
+- 권장 설정 방법
+  - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` 환경 변수로 관리
+  - Redirect URL(e.g. `http://localhost:8080/auth/google/callback`)은 구글 콘솔과 서버 설정 양쪽에서 동일하게 맞출 것 [web:7]
 
 ## 참고
 
