@@ -9,13 +9,8 @@
 - 실무 환경과 유사한 개발 환경 구성 및 배포 연습
 - Firebase Cloud Messaging(FCM), Kakao, Google SDK 등을 이용한 인증/연동 예제 포함
 
-## 주요 기술 스택
-
-- Java (약 65%)
-- CSS
-- JavaScript
-- HTML
-- Batchfile
+## Languages
+Java, Kotlin, Javascript, CSS, HTML, Batchfile
 
 ## 개발 툴 및 다운로드 링크
 
