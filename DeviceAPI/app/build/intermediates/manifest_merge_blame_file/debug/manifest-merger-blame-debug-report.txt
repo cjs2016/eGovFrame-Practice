@@ -1,0 +1,298 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.go.egovframework.hyb.deviceinfoapp"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="10000"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+8-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+9        android:minSdkVersion="30"
+9-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:15-41
+10        android:targetSdkVersion="30" />
+10-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:42-71
+11
+12    <supports-screens
+12-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:4:5-67
+20-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:4:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:49:5-79
+21-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:49:22-76
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:50:5-81
+22-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:50:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:51:5-79
+23-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:51:22-76
+24
+25    <uses-feature android:name="android.hardware.location.gps" />
+25-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:52:5-66
+25-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:52:19-63
+26
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:53:5-81
+27-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:53:22-78
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:54:5-71
+28-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:54:22-68
+29    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+29-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:55:5-71
+29-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:55:22-68
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:56:5-80
+30-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:56:22-77
+31    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+31-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:57:5-80
+31-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:57:22-77
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:58:5-75
+32-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:58:22-72
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:59:5-66
+33-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:59:22-63
+34    <uses-permission android:name="android.permission.READ_CONTACTS" />
+34-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:60:5-72
+34-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:60:22-69
+35    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+35-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:61:5-73
+35-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:61:22-70
+36    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+36-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:62:5-71
+36-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:62:22-68
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:63:5-68
+37-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:63:22-65
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:64:5-82
+38-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:64:22-79
+39
+40    <permission
+40-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:5-111
+41        android:name="com.example.hello.permission.C2D_MESSAGE"
+41-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:17-72
+42        android:protectionLevel="signature" />
+42-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:73-108
+43
+44    <uses-permission android:name="com.example.hello.permission.C2D_MESSAGE" />
+44-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:66:5-80
+44-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:66:22-77
+45    <uses-permission android:name="android.permission.CAMERA" />
+45-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:67:5-65
+45-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:67:22-62
+46    <uses-permission android:name="android.permission.FLASHLIGHT" />
+46-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:68:5-69
+46-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:68:22-66
+47    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+47-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:69:5-73
+47-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:69:22-70
+48
+49    <uses-feature
+49-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:5-85
+50        android:name="android.hardware.camera"
+50-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:19-57
+51        android:required="false" />
+51-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:58-82
+52
+53    <application
+53-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:5-47:19
+54        android:debuggable="true"
+55        android:extractNativeLibs="false"
+56        android:hardwareAccelerated="true"
+56-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:18-52
+57        android:icon="@mipmap/icon"
+57-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:53-80
+58        android:label="@string/app_name"
+58-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:81-113
+59        android:supportsRtl="true"
+59-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:114-140
+60        android:testOnly="true"
+61        android:usesCleartextTraffic="true" >
+61-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:141-176
+62        <activity
+62-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:9-11:20
+63            android:name="kr.go.egovframework.hyb.deviceinfoapp.MainActivity"
+63-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:166-231
+64            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+64-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:19-96
+65            android:label="@string/activity_name"
+65-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:97-134
+66            android:launchMode="singleTop"
+66-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:135-165
+67            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+67-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:232-294
+68            android:windowSoftInputMode="adjustResize" >
+68-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:295-337
+69            <intent-filter android:label="@string/launcher_name" >
+69-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:7:13-10:29
+69-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:7:28-65
+70                <action android:name="android.intent.action.MAIN" />
+70-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:8:17-69
+70-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:8:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:9:17-77
+72-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:9:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+77            android:name="org.apache.cordova.camera.FileProvider"
+77-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:127-180
+78            android:authorities="kr.go.egovframework.hyb.deviceinfoapp.provider"
+78-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:19-66
+79            android:exported="false"
+79-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:67-91
+80            android:grantUriPermissions="true" >
+80-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:92-126
+81            <meta-data
+81-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:13-123
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:24-74
+83                android:resource="@xml/camera_provider_paths" />
+83-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:75-120
+84        </provider>
+85
+86        <activity
+86-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:9-95
+87            android:name="com.plugin.gcm.PushHandlerActivity"
+87-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:43-92
+88            android:exported="true" />
+88-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:19-42
+89
+90        <receiver
+90-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:9-22:20
+91            android:name="com.plugin.gcm.CordovaGCMBroadcastReceiver"
+91-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:19-76
+92            android:permission="com.google.android.c2dm.permission.SEND" >
+92-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:77-137
+93            <intent-filter>
+93-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:17:13-21:29
+94                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+94-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:18:17-81
+94-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:18:25-78
+95                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+95-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:19:17-86
+95-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:19:25-83
+96
+97                <category android:name="com.example.hello" />
+97-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:20:17-62
+97-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:20:27-59
+98            </intent-filter>
+99        </receiver>
+100
+101        <service android:name="com.plugin.gcm.GCMIntentService" />
+101-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:23:9-67
+101-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:23:18-64
+102
+103        <provider
+104            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+104-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:134-205
+105            android:authorities="kr.go.egovframework.hyb.deviceinfoapp.opener.provider"
+105-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:19-73
+106            android:exported="false"
+106-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:74-98
+107            android:grantUriPermissions="true" >
+107-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:99-133
+108            <meta-data
+108-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:13-123
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:24-74
+110                android:resource="@xml/opener_paths" />
+110-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:75-120
+111        </provider>
+112
+113        <activity
+113-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:9-181
+114            android:name="com.hutchind.cordova.plugins.streamingmedia.SimpleAudioStream"
+114-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:102-178
+115            android:configChanges="orientation|screenSize"
+115-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:19-65
+116            android:label="Simple Audio Stream" />
+116-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:66-101
+117        <activity
+117-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:9-181
+118            android:name="com.hutchind.cordova.plugins.streamingmedia.SimpleVideoStream"
+118-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:102-178
+119            android:configChanges="orientation|screenSize"
+119-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:19-65
+120            android:label="Simple Video Stream" />
+120-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:66-101
+121        <activity
+121-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:9-34:20
+122            android:name="com.google.zxing.client.android.CaptureActivity"
+122-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:128-190
+123            android:clearTaskOnLaunch="true"
+123-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:19-51
+124            android:configChanges="orientation|keyboardHidden"
+124-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:52-102
+125            android:exported="false"
+125-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:103-127
+126            android:screenOrientation="landscape"
+126-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:191-228
+127            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+127-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:229-287
+128            android:windowSoftInputMode="stateAlwaysHidden" >
+128-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:288-335
+129            <intent-filter>
+129-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:30:13-33:29
+130                <action android:name="com.phonegap.plugins.barcodescanner.SCAN" />
+130-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:31:17-83
+130-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:31:25-80
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:17-76
+132-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:27-73
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:9-40:20
+136            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+136-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:54-122
+137            android:label="@string/share_name" >
+137-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:19-53
+138            <intent-filter>
+138-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:36:13-39:29
+139                <action android:name="com.phonegap.plugins.barcodescanner.ENCODE" />
+139-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:37:17-85
+139-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:37:25-82
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:17-76
+141-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:27-73
+142            </intent-filter>
+143        </activity>
+144        <activity
+144-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:9-46:20
+145            android:name="com.google.zxing.client.android.HelpActivity"
+145-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:54-113
+146            android:label="@string/share_name" >
+146-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:19-53
+147            <intent-filter>
+147-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:42:13-45:29
+148                <action android:name="android.intent.action.VIEW" />
+148-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:43:17-69
+148-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:43:25-66
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:17-76
+150-->D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:27-73
+151            </intent-filter>
+152        </activity>
+153    </application>
+154
+155</manifest>

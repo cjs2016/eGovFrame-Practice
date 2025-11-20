@@ -1,0 +1,344 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:12:127-180
+provider#io.github.pwlin.cordova.plugins.fileopener2.FileProvider
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:9-26:20
+	android:grantUriPermissions
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:99-133
+	android:authorities
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:19-73
+	android:exported
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:74-98
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:24:134-205
+manifest
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+MERGED from [:CordovaLib] D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\CordovaLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\87096e53da86564f7fea51ea8bf57231\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\c470430bb6b35b12bcf2c45738fc40fa\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\e764757cd9b0904236352ee2d969a8f5\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\47096fe8fd7414383f253d91ba9b632d\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\3bbb83b9475c09cb080958fe088f3537\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\9bb679a1c42a1dc2f9ea3c17a7d5ce7b\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\55375993abe61a9e79ac2ec8e704b9ec\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\62190d66c06e407b71297b91cdd9ddb3\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\d81f3a4a150f46264acb2959241ba06d\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\50003f0cbdeac2d4e31c9dc14a04bf5c\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:102-149
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:150-208
+	android:versionCode
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:5-47:19
+	android:supportsRtl
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:53-80
+	android:usesCleartextTraffic
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:5:141-176
+activity#kr.go.egovframework.hyb.deviceinfoapp.MainActivity
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:295-337
+	android:configChanges
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:232-294
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:6:166-231
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.plugin.gcm.PushHandlerActivity
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:9-95
+	android:exported
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:19-42
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:15:43-92
+receiver#com.plugin.gcm.CordovaGCMBroadcastReceiver
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:permission
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:77-137
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:16:19-76
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.example.hello
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:17:13-21:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:18:17-81
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:18:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:19:17-86
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:19:25-83
+category#com.example.hello
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:20:17-62
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:20:27-59
+service#com.plugin.gcm.GCMIntentService
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:23:9-67
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:23:18-64
+activity#com.hutchind.cordova.plugins.streamingmedia.SimpleAudioStream
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:9-181
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:66-101
+	android:configChanges
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:19-65
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:27:102-178
+activity#com.hutchind.cordova.plugins.streamingmedia.SimpleVideoStream
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:9-181
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:66-101
+	android:configChanges
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:19-65
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:28:102-178
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:9-34:20
+	android:screenOrientation
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:191-228
+	android:clearTaskOnLaunch
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:19-51
+	android:windowSoftInputMode
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:288-335
+	android:exported
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:103-127
+	android:configChanges
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:52-102
+	android:theme
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:229-287
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:29:128-190
+intent-filter#action:name:com.phonegap.plugins.barcodescanner.SCAN+category:name:android.intent.category.DEFAULT
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:30:13-33:29
+action#com.phonegap.plugins.barcodescanner.SCAN
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:31:17-83
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:31:25-80
+category#android.intent.category.DEFAULT
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:32:27-73
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:9-40:20
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:19-53
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:35:54-122
+intent-filter#action:name:com.phonegap.plugins.barcodescanner.ENCODE+category:name:android.intent.category.DEFAULT
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:36:13-39:29
+action#com.phonegap.plugins.barcodescanner.ENCODE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:37:17-85
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:37:25-82
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:9-46:20
+	android:label
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:19-53
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:41:54-113
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.VIEW
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:43:25-66
+uses-sdk
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+MERGED from [:CordovaLib] D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\CordovaLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-43
+MERGED from [:CordovaLib] D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\CordovaLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\87096e53da86564f7fea51ea8bf57231\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\87096e53da86564f7fea51ea8bf57231\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\c470430bb6b35b12bcf2c45738fc40fa\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\c470430bb6b35b12bcf2c45738fc40fa\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\e764757cd9b0904236352ee2d969a8f5\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\e764757cd9b0904236352ee2d969a8f5\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\47096fe8fd7414383f253d91ba9b632d\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\47096fe8fd7414383f253d91ba9b632d\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\3bbb83b9475c09cb080958fe088f3537\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\3bbb83b9475c09cb080958fe088f3537\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\9bb679a1c42a1dc2f9ea3c17a7d5ce7b\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\9bb679a1c42a1dc2f9ea3c17a7d5ce7b\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\55375993abe61a9e79ac2ec8e704b9ec\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\55375993abe61a9e79ac2ec8e704b9ec\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\62190d66c06e407b71297b91cdd9ddb3\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\62190d66c06e407b71297b91cdd9ddb3\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\d81f3a4a150f46264acb2959241ba06d\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\d81f3a4a150f46264acb2959241ba06d\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\50003f0cbdeac2d4e31c9dc14a04bf5c\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Á¤Àç¼÷\.gradle\caches\transforms-3\50003f0cbdeac2d4e31c9dc14a04bf5c\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:5-74
+	android:targetSdkVersion
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:42-71
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:48:15-41
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+		INJECTED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:49:5-79
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:49:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:51:5-79
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:51:22-76
+uses-feature#android.hardware.location.gps
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:52:5-66
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:52:19-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:53:5-81
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:53:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:54:5-71
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:54:22-68
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:55:5-71
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:55:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:56:5-80
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:56:22-77
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:57:5-80
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:57:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:58:5-75
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:58:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:59:5-66
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:59:22-63
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:60:5-72
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:60:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:61:5-73
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:61:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:62:5-71
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:62:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:63:5-68
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:63:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:64:5-82
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:64:22-79
+permission#com.example.hello.permission.C2D_MESSAGE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:5-111
+	android:protectionLevel
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:73-108
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:65:17-72
+uses-permission#com.example.hello.permission.C2D_MESSAGE
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:66:5-80
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:66:22-77
+uses-permission#android.permission.CAMERA
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:67:5-65
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:67:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:68:5-69
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:68:22-66
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:69:5-73
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:69:22-70
+uses-feature#android.hardware.camera
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:5-85
+	android:required
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:58-82
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:70:19-57
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\AndroidManifest.xml:13:24-74

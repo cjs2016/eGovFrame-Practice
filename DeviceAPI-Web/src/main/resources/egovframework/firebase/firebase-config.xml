@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Firebase 설정 -->
+    <bean id="firebaseInitializer" class="egovframework.fcm.FirebaseInitializer" init-method="init">
+        <property name="serviceAccountPath" value="classpath:/egovframework/egovProps/kr-bitspace-egovframework-firebase-cloud-messaging-adminsdk.json"/>
+    </bean>
+
+</beans>

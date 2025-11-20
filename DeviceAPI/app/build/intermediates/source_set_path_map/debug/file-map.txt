@@ -1,0 +1,12 @@
+kr.go.egovframework.hyb.deviceinfoapp-support-core-ui-27.1.1-0 C:\Users\정재숙\.gradle\caches\transforms-3\47096fe8fd7414383f253d91ba9b632d\transformed\support-core-ui-27.1.1\res
+kr.go.egovframework.hyb.deviceinfoapp-support-compat-27.1.1-1 C:\Users\정재숙\.gradle\caches\transforms-3\9bb679a1c42a1dc2f9ea3c17a7d5ce7b\transformed\support-compat-27.1.1\res
+kr.go.egovframework.hyb.deviceinfoapp-support-media-compat-27.1.1-2 C:\Users\정재숙\.gradle\caches\transforms-3\c470430bb6b35b12bcf2c45738fc40fa\transformed\support-media-compat-27.1.1\res
+kr.go.egovframework.hyb.deviceinfoapp-packaged_res-3 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\CordovaLib\build\intermediates\packaged_res\debug
+kr.go.egovframework.hyb.deviceinfoapp-pngs-4 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\generated\res\pngs\debug
+kr.go.egovframework.hyb.deviceinfoapp-resValues-5 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\generated\res\resValues\debug
+kr.go.egovframework.hyb.deviceinfoapp-rs-6 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\generated\res\rs\debug
+kr.go.egovframework.hyb.deviceinfoapp-mergeDebugResources-7 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+kr.go.egovframework.hyb.deviceinfoapp-mergeDebugResources-8 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+kr.go.egovframework.hyb.deviceinfoapp-merged_res-9 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\build\intermediates\merged_res\debug
+kr.go.egovframework.hyb.deviceinfoapp-debug-10 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\debug\res
+kr.go.egovframework.hyb.deviceinfoapp-main-11 D:\eGovFrame-4.3.0-Win-64it\eGovFrame-4.3.0\workspace-edu\lab403-DeviceAPI\app\src\main\res
