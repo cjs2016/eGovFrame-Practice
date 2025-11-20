@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab403-DeviceAPI.iml" filepath="$PROJECT_DIR$/.idea/modules/lab403-DeviceAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/lab403-DeviceAPI.CordovaLib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lab403-DeviceAPI.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
