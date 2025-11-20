@@ -48,7 +48,10 @@
 	<a href="./test-ajax.jsp">2. Ajax 데이타 송수신 테스트 (Ajax data transmission and reception test)</a><br/>
 	<br/>
 	<a href="./swagger-ui.html">3. Swagger 연계서비스 정의문서 (Swagger Restful Service definition document)</a><br/>
+<<<<<<< HEAD
 	<br/>
 	<a href="./fcm.jsp">4. Firebase/FCM 으로 이벤트 송수신</a><br/>
+=======
+>>>>>>> e1df4ccd6fb65084401baf4d2b3992edb5593e1b
 </body>
 </html>
