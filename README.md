@@ -69,6 +69,7 @@
 ## 참고
 
 - eGovFrame 공식 사이트: https://www.egovframe.go.kr/
+- eGovFrame Mobile 사이트 http://m.egovframe.go.kr/mguide3.5/
 - 관련 예제 및 문서는 공식 가이드 참고
 
 ## 라이선스
