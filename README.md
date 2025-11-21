@@ -14,7 +14,7 @@ Java, Kotlin, Javascript, CSS, HTML, Batchfile
 
 ## 개발 툴 및 다운로드 링크
 
-| 개발 툴             | 공식 다운로드 사이트                                                                                           | 비고                          |
+| 개발 툴             | 공식 다운로드 사이트                                                                                        | 비고                          |
 |---------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------|
 | Apache Tomcat 9.0   | [tomcat.apache.org/download-90.cgi](https://tomcat.apache.org/download-90.cgi)                               | 웹 서버, 최신 9.0.x 버전 제공 |
 | Eclipse             | [eclipse.org/downloads](https://www.eclipse.org/downloads/)                                                  | 대표 Java 통합 개발 환경      |
@@ -22,6 +22,11 @@ Java, Kotlin, Javascript, CSS, HTML, Batchfile
 | JDK 17 (앱/최신용)  | [oracle.com/java/technologies/downloads/#jdk17](https://www.oracle.com/java/technologies/downloads/#jdk17)   | Java 17 LTS 추천            |
 | MySQL 8.0           | [dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)                                     | 오픈소스 데이터베이스        |
 | Android Studio      | [developer.android.com/studio](https://developer.android.com/studio)                                         | 구글 공식 안드로이드 개발툴  |
+
+| 개발 툴             | DOCKER 설치 명령                                                                                             | 비고                       |
+|---------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------|
+| RabbitMQ            | docker run -d -e TZ-Asia/Seoul --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management               |                             |
+| Zipkin              | docker run --name zipkin -d -p 9411:9411 -e TZ=Asia/Seoul openzipkin/zipkin                                  |                             |
 
 ## 필요한 API KEY
 
